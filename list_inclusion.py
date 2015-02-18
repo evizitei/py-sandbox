@@ -4,4 +4,5 @@ kid = "Frank"
 if kid in students:
   print "ONE OF US!"
 else:
+  students.append(kid)
   print "Shun the outsider..."
