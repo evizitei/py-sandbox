@@ -1,5 +1,6 @@
 word = raw_input("Give me a word...")
 if len(word) > 0 and word.isalpha():
+  word = word.lower()
   first_letter = word[0]
   translation = ""
 
